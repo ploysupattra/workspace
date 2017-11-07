@@ -1,0 +1,14 @@
+import javax.swing.JOptionPane;
+
+public class class2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub		
+		String inputnum = JOptionPane.showInputDialog("Plese Input Number");
+		int num = Integer.parseInt(inputnum);
+		int[] nint = new int[10];
+		if (nint[] = num ) {}
+		
+	}
+
+}

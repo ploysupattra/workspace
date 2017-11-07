@@ -1,0 +1,20 @@
+import javax.swing.JOptionPane;
+
+public class Home1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double[] number = new double[30];
+		double oddnum = 0.0;
+		double evenum = 0.0;
+		for(int n=0; n<=number.length ; n++) {
+			String input = JOptionPane.showInputDialog("Plese Input Number");
+			if(input.equals("stop")) { JOptionPane.showMessageDialog(null, "Stop Input Number"); break; }
+			else{
+				double output = Double.parseDouble(input);
+				int op_int = Integer.parseInt(output);
+			}
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+import javax.swing.JOptionPane;
+
+public class class2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub		
+		String inputnum = JOptionPane.showInputDialog("Plese Input Number");
+		int num = Integer.parseInt(inputnum);
+		int sum = 0;
+		int p=1;
+		//for(int i=1; i<=num; i++) { sum = sum+i;}
+		while( p<=num) {sum = sum+p; }
+		JOptionPane.showMessageDialog(null,sum);
+		
+	}
+
+}
