@@ -1,0 +1,16 @@
+import javax.swing.JOptionPane;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String fareheil = JOptionPane.showInputDialog("Plese Input Fareheil");
+		System.out.println(fareheil);		
+		int test = Integer.parseInt(fareheil);
+		int centigrade = test;
+		centigrade = (5/9)*( test -32);
+		JOptionPane.showMessageDialog(null, centigrade , "Your P", JOptionPane.INFORMATION_MESSAGE);
+
+	}
+
+}

@@ -1,0 +1,14 @@
+
+public class Class02_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//int myInt = 10 ;
+		//String myString = "5";
+		int[] myInt = new int[10];
+		myInt[5] = 20;
+		String[] box = new String[5];
+		box[3] = "Hello";
+	}
+
+}

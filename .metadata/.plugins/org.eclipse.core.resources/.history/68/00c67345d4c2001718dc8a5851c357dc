@@ -1,0 +1,17 @@
+import javax.swing.JOptionPane;
+
+public class changprice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String ipusd = JOptionPane.showInputDialog("Input Price Bath");
+		System.out.println(ipusd);
+		float changsud = (float)(32.73/Float.parseFloat(ipusd));
+		float changeur = (float)(37.84/Float.parseFloat(ipusd));
+		float changjpy = (float)(28.35/Float.parseFloat(ipusd));
+		JOptionPane.showMessageDialog(null, changsud, "Total USD Price", JOptionPane.INFORMATION_MESSAGE);
+		JOptionPane.showMessageDialog(null, changeur, "Total USD Price", JOptionPane.INFORMATION_MESSAGE);
+		JOptionPane.showMessageDialog(null, changjpy, "Total USD Price", JOptionPane.INFORMATION_MESSAGE);
+	}
+
+}

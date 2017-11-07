@@ -1,0 +1,12 @@
+package helloworld;
+
+public class hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int p = 7;
+		p++;
+		System.out.println("Hello my World!!"+ p);
+	}
+
+}
