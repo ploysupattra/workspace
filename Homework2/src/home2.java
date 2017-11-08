@@ -34,9 +34,7 @@ public class home2 {
 		default:
 			JOptionPane.showMessageDialog(null, "Currency not supported","Error",JOptionPane.ERROR_MESSAGE);
 			break;
-		}
-				
-
+		}			
 	}
 	
 

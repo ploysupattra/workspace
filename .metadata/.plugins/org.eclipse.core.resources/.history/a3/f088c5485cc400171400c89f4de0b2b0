@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class UserAccountEx {
+
+	public static void main(String[] args) {
+		String[] username = new String[5];
+		username[0]="bob";username[1]="Alice";username[2]="John";
+		String[] password = new String[5];
+		password[0]="W9F1D1HL";password[1]="V4IJ6Z7F";password[2]="UV5WS4X7";
+		if(username==password) {
+			ArrayList<String> usernamel = new ArrayList<String>();
+			for(String u:username) { usernamel.add(u); }
+			for(String p:usernamel) { System.out.println(p); }
+
+		}
+		//System.out.println(Arrays.toString(username));
+		//System.out.println(Arrays.toString(password));
+		
+	}
+	
+	public static void displayAllUsers() {
+		
+	}
+
+}
