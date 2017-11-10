@@ -1,0 +1,26 @@
+import javax.swing.JOptionPane;
+
+public class User 
+{
+	public String username; public String password; public String ApplyDate; public String Memtype;
+
+	public User(String username) {
+		this.username = username;
+		this.password = randomStr();
+	}
+
+	private static String randomStr() {
+		String Text = "";
+		String seed_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+		for (int i = 0; i < 8; i++) {
+			int rand = (int)(Math.random() * seed_chars.length());
+			Text += seed_chars.charAt(rand);
+		}
+		return Text;
+	}
+	
+	public void showUserDetail() {
+		JOptionPane.showMessageDialog(null, this.username + " " + this.password);
+		//JOptionPane.showMessageDialog(null, ApplyDate,Memtype);
+	}
+}

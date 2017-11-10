@@ -14,8 +14,7 @@ public class MenuEx {
 		}
 		for(int p=0; p<TableMenu.length; p++) { TableMenu[p].displayMenuDetail();}
 		TableMenu[2].increasePrice(10); TableMenu[3].increasePrice(20);
-		//for() {} 
-		
+		for(int m=0; m<TableMenu.length; m++) { TableMenu[m].increasePrice(m); }
 	}
 
 }

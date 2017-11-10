@@ -1,0 +1,8 @@
+
+public class ShoeProduct extends Product {
+	public double size; public string Color;
+	//Product[] givepro = new Product[];
+	public ShoeProduct(double Proname,int stockAmount,String Color,double size) {
+		this.Proname=Proname; this.size=size; this.stockAmount=stockAmount; this.Color=Color;
+	}
+}
