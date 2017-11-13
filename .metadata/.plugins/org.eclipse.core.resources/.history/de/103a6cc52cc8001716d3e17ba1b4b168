@@ -1,0 +1,8 @@
+
+public interface GraphicShap {
+	String getShapName();
+	double Shapeperi();
+	double ShapeArea();
+	String PrintShapeIn();
+	int setPosition(int Insys);
+}

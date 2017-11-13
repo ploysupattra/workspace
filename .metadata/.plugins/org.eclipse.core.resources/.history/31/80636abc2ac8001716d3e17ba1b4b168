@@ -1,0 +1,28 @@
+
+public class RactangleShape implements GraphicShap {
+
+	@Override
+	public String getShapName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public double Shapeperi() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double ShapeArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public String PrintShapeIn() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

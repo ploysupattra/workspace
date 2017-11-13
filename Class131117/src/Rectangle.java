@@ -1,0 +1,16 @@
+
+public class Rectangle extends Shap2D {
+
+	@Override double CalculArea() { return 0;}
+	public double width;
+	public double height;
+	
+	//ในกรณี ไม่ไปเพิ่ม inpemier ใน superclass 
+	public Rectangle(String color) { 
+		super(color);
+		//ในกกรณี supeerclass มีบรรทัดข้างบนจะเปน
+		///super();
+		}
+	public Rectangle(double Aera,double Parimeter) {}
+
+}

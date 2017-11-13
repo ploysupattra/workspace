@@ -1,0 +1,13 @@
+
+public class TriangleSpaae implements GraphicShap {
+
+	@Override public String getShapName() {return null;}
+	@Override public double Shapeperi() {return 0;}
+	@Override public double ShapeArea() {return 0;}
+	@Override public String PrintShapeIn() {return null;}
+	@Override public int setPosition(int Insys) {return 0;}
+	
+	//public String Color;
+	
+
+}

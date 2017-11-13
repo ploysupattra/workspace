@@ -1,0 +1,8 @@
+
+public abstract class Shap2D {
+	public double Area;
+	public double Perimeter;
+	public String color;
+	
+	abstract double CalculArea(); {}
+}

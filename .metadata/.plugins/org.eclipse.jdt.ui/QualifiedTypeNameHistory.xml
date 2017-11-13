@@ -7,4 +7,12 @@
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="ShoeProduct"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="Rectangle"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="Triangle"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="RactangleShape"/>
+<fullyQualifiedTypeName name="GraphicShap"/>
+<fullyQualifiedTypeName name="CicrleShape"/>
+<fullyQualifiedTypeName name="TriangleShape"/>
 </qualifiedTypeNameHistroy>

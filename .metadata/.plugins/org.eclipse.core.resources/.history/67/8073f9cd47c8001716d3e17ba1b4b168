@@ -1,0 +1,12 @@
+
+public class MainRun {
+
+	public static void main(String[] args) {
+		RactangleShape newRec = new RactangleShape();
+		System.out.println("Perimeter :"+newRec.setPosition(2));
+		System.out.println("Area"+newRec);
+		newRec.printAbout();
+		newRec.PrintShapeIn();
+	}
+
+}

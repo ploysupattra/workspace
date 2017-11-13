@@ -1,0 +1,11 @@
+
+public abstract class Shap2D {
+	public double Area;
+	public double Perimeter;
+	public String color;
+	
+	abstract double CalculArea();
+	public Shap2D() {}
+	public Shap2D(String color) { this.color=color; }
+}
+ 

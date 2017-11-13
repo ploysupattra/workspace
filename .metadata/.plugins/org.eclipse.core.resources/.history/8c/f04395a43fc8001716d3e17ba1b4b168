@@ -1,0 +1,9 @@
+
+public interface GraphicShap {
+	String getShapName();
+	double Shapeperi();
+	double ShapeArea();
+	String PrintShapeIn();
+	int setPosition(int Insys);
+	default void printAbout() { System.out.println("Graphic 1.0");}
+}

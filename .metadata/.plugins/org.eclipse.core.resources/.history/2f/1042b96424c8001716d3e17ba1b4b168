@@ -1,0 +1,8 @@
+
+public class Triangle extends Shap2D {
+
+	@Override double CalculArea() { return 0;}
+	public double Base;
+	public double height;
+
+}

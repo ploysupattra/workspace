@@ -1,0 +1,10 @@
+
+public class Triangle extends Shap2D {
+
+	@Override
+	double CalculArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

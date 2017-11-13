@@ -1,0 +1,15 @@
+
+public abstract class Shap2D {
+	public double Area=4;
+	public double Perimeter=2;
+	public String color;
+	
+	abstract double CalculArea();
+	public Shap2D() {//กรณีการเลือกที่ไม่เปนอิรสะ 
+		this.color="red"; 
+		}
+	public Shap2D(String color) { this.color=color; }
+	public static void printDim() { System.out.println("Two Dimension");}
+	public Shap2D(double Area,double Perimeter) { this.Area=Area; this.Perimeter=Perimeter;}
+}
+ 
