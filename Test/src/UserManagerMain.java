@@ -1,0 +1,17 @@
+import javax.swing.JOptionPane;
+
+public class UserManagerMain {
+
+	public static void main(String[] args) {
+		User b = new User("123");
+		UserManager m = new UserManager();
+		for(int h=0;h<3;h++) {
+			String InputUser = JOptionPane.showInputDialog("Please Inuput username");
+			
+		}
+		//m.showDetail();
+		//System.out.print(b.username+","+b.password);
+		
+	}
+
+}

@@ -1,5 +1,27 @@
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
-public class MemberUser 
+public class MemberUser extends User
 {
 	
+	public Date ApplyDate;
+	public String MemType;
+	public MemberUser(String username,String password,String Memtype,String Date) { 
+		super(username);
+		this.password=password;
+		this.ApplyDate=ApplyDate;
+		this.MemType=Memtype;
+	}
+	public static Date ApplyUser(String Date) throws ParseException {
+		DateFormat DUser = new SimpleDateFormat("dd-MM-yyyy"); Date post;
+		post = DUser.parse(Date);
+		return post; }
+	
+	
+	
+	
 }
+
+ 

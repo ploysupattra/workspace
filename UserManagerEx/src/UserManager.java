@@ -11,10 +11,18 @@ public class UserManager {
 				input_user = JOptionPane.showInputDialog("Input Username..");
 				user[i] = new User(input_user);
 				pointuser[i] = "user" + i;
-				break;
+				break;}
+		}
+	}
+	public void Usermember(String username,String password,String Memtype,String Date) {
+		for(int p=0; p<50; p++) {
+			if(user[p]==null) {
+				 JOptionPane.showInputDialog("Input Date");
+				
 			}
 		}
 	}
+
 
 	public void showUserDetail() {
 		String text = "";

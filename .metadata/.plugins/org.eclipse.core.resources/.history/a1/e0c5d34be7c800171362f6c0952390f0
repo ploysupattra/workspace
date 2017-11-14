@@ -1,0 +1,15 @@
+import javax.swing.JOptionPane;
+
+public class Run {
+
+	public static void main(String[] args) {
+		try { String Userinput = JOptionPane.showInputDialog("Enter Number");
+			 double input = Double.parseDouble(Userinput);
+			 System.out.println(input); } 
+		catch (NumberFormatException exam) {
+			//System.out.print("Invaild Number Input!!");
+			JOptionPane.showMessageDialog(null, "Invalid Number Input!!");
+		}
+	}
+
+}

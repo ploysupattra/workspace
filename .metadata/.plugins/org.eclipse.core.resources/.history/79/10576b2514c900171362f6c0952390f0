@@ -1,0 +1,10 @@
+import java.util.Date;
+
+public class MemberUser extends User
+{
+	public Date ApplyDate;
+	public String MemType;
+	public MemberUser(String username) { super(username);	}
+	
+}
+ 

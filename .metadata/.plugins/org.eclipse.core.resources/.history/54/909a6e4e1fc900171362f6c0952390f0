@@ -1,0 +1,9 @@
+
+public class UsermanagerMain {
+
+	public static void main(String[] args) {
+		User b = new User("123");
+		System.out.print(b.username+","+b.password);
+	}
+
+}
