@@ -2,9 +2,7 @@
 public class User {
 	public String username;
 	public String password;
-	public User(String username) {
-		this.username=username; this.password=Randompass();
-		}
+	public User(String username) { this.username=username; this.password=Randompass();}
 	//function random password
 	public String Randompass() {
 		String Seed = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";

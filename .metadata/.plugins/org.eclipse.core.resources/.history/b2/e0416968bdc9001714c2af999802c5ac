@@ -1,0 +1,10 @@
+
+public class Product {
+	int ItemID;
+	String ProCode;
+	String ProName;
+	double price;
+	public Product(int Item,String ProCode,String ProName,double price) {
+		this.ItemID=ItemID;
+	}
+}

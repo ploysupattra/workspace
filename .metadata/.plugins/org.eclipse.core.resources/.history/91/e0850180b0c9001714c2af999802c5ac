@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Collection<String> p; //เป็น Interface,no Object
+		List<String> n; //เป็น Interface,no Object
+		ArrayList<String> Mylist; //เป็น Class ,Implement List Interface
+		Mylist = new ArrayList<>(); //Mylist เป็น ArraryList,รับ Method ArrayList 
+		n = new ArrayList<>();
+		p = new ArrayList<>(2);
+		for(String i:p) { System.out.println(i);}
+	}
+
+}
