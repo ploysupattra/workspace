@@ -1,0 +1,43 @@
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JPasswordField;
+
+public class Loginpanel extends JPanel {
+	private MainWindow parentWin;
+	private JTextField usernameField;
+	private JButton btnNewButton;
+	private JPasswordField passwordField;
+
+	/** * Create the panel.*/
+	public Loginpanel(MainWindow parent) {
+		setLayout(null);
+		this.parentWin = parent;
+		
+		usernameField = new JTextField();
+		usernameField.setBounds(168, 142, 86, 20);
+		add(usernameField);
+		usernameField.setColumns(10);
+		
+		passwordField = new JPasswordField();
+		passwordField.setBounds(168, 111, 86, 20);
+		add(passwordField);
+		
+		btnNewButton = new JButton("New button");
+		btnNewButton.setBounds(168, 188, 89, 23);
+		add(btnNewButton);
+		
+		JButton btnLogin = new JButton("Log-In");
+		btnLogin.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				String username = usernameField.getText();
+				//char[] pwd = paswordField.getPa
+			}
+		});
+	}
+}

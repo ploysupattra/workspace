@@ -1,0 +1,22 @@
+package class9_1611;
+
+public class Run {
+
+	public static void main(String[] args) {
+		String init = "Aug,September,Oct,Nov,Dec" +"Happy New";
+		int indexofSep = init.indexOf("September");
+		System.out.println(""+indexofSep);
+		
+		int indexofJan = init.indexOf("Jan");
+		System.out.println("Jan is a"+ indexofJan);
+		System.out.println("Jan is inside "+init.contains("Jan"));
+		
+		String fromSep = init.substring(8);
+		System.out.println(fromSep);
+		String fromOct = init.substring(8,26);
+		System.out.println(fromOct);
+		String changcommaColon = init.replace(",", ":");
+		System.out.println(changcommaColon);
+	}
+
+}

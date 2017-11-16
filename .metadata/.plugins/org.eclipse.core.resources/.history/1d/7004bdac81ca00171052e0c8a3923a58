@@ -1,0 +1,23 @@
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Main {
+
+	public static void main(String[] args) {
+		File InputFile = new File("input.txt");
+		try { FileReader fReader = new FileReader(InputFile);
+			  BufferedReader BufRead = new BufferedReader(fReader);
+			  String line;
+			  while ((line=BufRead.readLine())!=null) {
+				System.out.println("line : "+ line);	
+			  } BufRead.close();
+			} 
+		catch (FileNotFoundException e) { System.out.println("Not Found"); e.printStackTrace();} 
+		catch (IOException e) {System.out.println("Can't Read Line!!");}
+		
+	}
+
+}

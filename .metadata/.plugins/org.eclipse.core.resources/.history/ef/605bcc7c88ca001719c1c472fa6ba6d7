@@ -1,0 +1,10 @@
+import javax.swing.JPanel;
+
+public class Loginpanel extends JPanel {
+
+	/** * Create the panel.*/
+	public Loginpanel() {
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package class9_1611;
+
+public class Enum9_1611 {
+	public enum Status {
+		PREPARE(""), LOADED(""), DELIVER("");
+		String message;
+		private Status(String msg) { this.message = msg;}
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}
